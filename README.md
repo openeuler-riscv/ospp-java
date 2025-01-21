@@ -28,7 +28,7 @@ ospp项目梳理：https://docs.qq.com/sheet/DUUFmVGhia01FaWZn?tab=fxwl20
 mvn clean test
 ```
 构建完成后的 `BUILD SUCCESS` 即为测试成功的标识。
-PS: 当maven项目出现非架构引起（即在x86上也会出现）的测试问题时，可以使用如下命令跳过测试直接执行构建，此时如果可以构建成功也视同测试成功。
+PS: 当maven项目出现非架构引起（即在x86上也会出现）的测试问题时（例如`shenyu`），可以使用如下命令跳过测试直接执行构建，此时如果可以构建成功也视同测试成功。
 ```
 mvn clean package -DskipTests
 ```
