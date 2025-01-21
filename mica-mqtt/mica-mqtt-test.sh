@@ -11,7 +11,7 @@ git clone https://gitee.com/dromara/mica-mqtt.git
 cd mica-mqtt
 
 # Build jars
-mvn package -s ../../../settings.xml
+mvn package
 
 # Run test
 cd ..
@@ -26,4 +26,4 @@ pkill -f math-game.jar
 
 # Test result
 # Success Flag: Find topic:/test/123 in client.log
-grep "topic:/test/123" mica-mqtt-test/client.log
+grep "topic:/test/123" ../mica-mqtt-test/client.log
