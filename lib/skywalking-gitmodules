@@ -1,0 +1,12 @@
+[submodule "apm-protocol/apm-network/src/main/proto"]
+	path = apm-protocol/apm-network/src/main/proto
+	url = https://gitee.com/ospp-java-apache-mirrors/skywalking-data-collect-protocol.git
+[submodule "oap-server/server-query-plugin/query-graphql-plugin/src/main/resources/query-protocol"]
+	path = oap-server/server-query-plugin/query-graphql-plugin/src/main/resources/query-protocol
+	url = https://gitee.com/ospp-java-apache-mirrors/skywalking-query-protocol.git
+[submodule "test/e2e-v2/java-test-service/e2e-protocol/src/main/proto"]
+	path = test/e2e-v2/java-test-service/e2e-protocol/src/main/proto
+	url = https://gitee.com/ospp-java-apache-mirrors/skywalking-data-collect-protocol.git
+[submodule "skywalking-ui"]
+	path = skywalking-ui
+	url = https://gitee.com/ospp-java-apache-mirrors/skywalking-booster-ui.git

@@ -1,0 +1,14 @@
+diff --git a/dubbo-maven-plugin/src/main/java/org/apache/dubbo/maven/plugin/protoc/DubboProtocCompilerMojo.java b/dubbo-maven-plugin/src/main/java/org/apache/dubbo/maven/plugin/protoc/DubboProtocCompilerMojo.java
+index 60a99ea..c3a10e4 100644
+--- a/dubbo-maven-plugin/src/main/java/org/apache/dubbo/maven/plugin/protoc/DubboProtocCompilerMojo.java
++++ b/dubbo-maven-plugin/src/main/java/org/apache/dubbo/maven/plugin/protoc/DubboProtocCompilerMojo.java
+@@ -212,6 +212,9 @@ public class DubboProtocCompilerMojo extends AbstractMojo {
+         if ("aarch64".equals(value)) {
+             return "aarch_64";
+         }
++        if ("riscv64".equals(value)) {
++            return "riscv64";
++        }
+         return "unknown";
+     }
+ 
